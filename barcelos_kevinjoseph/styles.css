@@ -42,3 +42,8 @@ h2 {
   height: 140px;
   width: 200px;
 }
+
+.contact-form-container {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+}
