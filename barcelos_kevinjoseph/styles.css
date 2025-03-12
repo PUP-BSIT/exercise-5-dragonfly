@@ -22,11 +22,6 @@ h2 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-.my-works {
-  border: 2px solid;
-  border-color: black;
-}
-
 .gallery {
   background-color: aquamarine;
 }
@@ -44,6 +39,90 @@ h2 {
 }
 
 .contact-form-container {
-  background-color: rgb(255, 255, 255);
-  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contact-title h2 {
+  font-weight: 600;
+  color: #000000;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.contact-title hr {
+  border: none;
+  width: 120px;
+  height: 5px;
+  background-color: #272727;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-input {
+  width: 400px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  font-weight: 500;
+  border-radius: 25px;
+  background-color: #7a7a7a;
+}
+
+.contact-form-container textarea {
+  padding-top: 20px;
+  height: 150px;
+  border-radius: 25px;
+  background-color: #7a7a7a;
+}
+
+.contact-input:focus {
+  border: 2px solid #ff994f;
+}
+
+.contact-input:hover {
+  transform: scale(1.05);
+}
+
+.contact-input::placeholder {
+  color: #a9a9a9;
+}
+
+.contact-form-container button {
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: white;
+  gap: 10px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(270deg, #ff994f, #fa6d86);
+  cursor: pointer;
+}
+
+.contact-form-container button:hover {
+  background: linear-gradient(270deg, #fa6d86, #ff994f);
+  transform: scale(1.05);
+}
+
+.contact-form-container button img {
+  height: 15px;
+}
+
+.contact-right img {
+  width: 500px;
 }
