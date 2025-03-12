@@ -1,0 +1,44 @@
+body {
+  background-image: url("assets/R\ \(1\).jpg");
+  text-align: justify;
+  background-size: auto;
+}
+
+#header {
+  background-image: url(assets/stars.jpg);
+  background-size: auto;
+  color: white;
+}
+
+.box {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  margin: 15px auto;
+  max-width: 800px;
+  border-radius: 8px;
+}
+
+h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.my-works {
+  border: 2px solid;
+  border-color: black;
+}
+
+.gallery {
+  background-color: aquamarine;
+}
+
+.vertical-image {
+  padding: 20px;
+  height: 300px;
+  width: 200px;
+}
+
+.horizontal-image {
+  padding: 20px;
+  height: 140px;
+  width: 200px;
+}
